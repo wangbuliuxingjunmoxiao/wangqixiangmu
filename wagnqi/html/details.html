@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>详情</title>
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/index-1.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/details.css">
+</head>
+<body>
+    <div id="mininav">
+        <div class="mininav_inner">
+            <div id="mininav_left" class="mininav_left">
+                <div>
+                    <span><a href="login.html">[登录]</a><a class="link-regist" href="register.html">[免费注册]</a></span>吴老师：18511858556或010-68231248
+                </div>
+            </div>
+            <div class="mininav_right" id="mininav_right">
+                <ul class="topnav">
+                    <li id="wechat"><a class="link4" target="_blank" title="中华书局官方微信">微信<span><p><img src="../images/weixin.jpg"></p></span></a></li>
+                    <li class="ddnewhead_cart"><a dd_name="购物车" name="购物车" href="shoppongcart.html"><i class="icon_card"></i>购物车<b id="cart_items_count"></b></a></li>
+                    <li id="myorder"><a class="link4" target="_blank" title="我的订单" href="#">我的订单</a></li>
+                    <li id="myaccount"><a class="link4" target="_blank" title="我的书屋" href="">我的书屋</a></li>
+                    <li id="help-center"><a class="link4" target="_blank" title="帮助中心" href="">帮助中心</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="header-wrapper">
+        <div id="header">
+            <div class="head_main">
+                <div class="head_left">
+                    <a class="logo" title="灿然书屋（中华书局旗下网上书店）" href="index.html" id="logo">
+                        <img alt="灿然书屋（中华书局旗下网上书店）Logo" src="../images/logo.png">
+                    </a>
+                    <div id="search_form" class="text_box">
+                        <div class="region region-search-form">
+                            <div id="block-search-form" class="block block-search">   
+                                <form action="/cart" method="post" id="search-block-form" accept-charset="UTF-8">
+                                    <div class="container-inline">
+                                        <div class="form-item form-type-textfield form-item-search-block-form">
+                                            <label class="element-invisible" for="edit-search-block-form--2">搜索 </label>
+                                            <input title="请输入您想搜索的关键词。" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text">
+                                        </div>
+                                        <div class="form-actions form-wrapper" id="edit-actions">
+                                            <input type="submit" id="edit-submit" name="op" value="搜索" class="form-submit">
+                                        </div>
+                                    </div>
+                                    <div id="advsearch-link"><a href="">高级搜索</a></div>
+                                </form>   
+                            </div>
+                            <div id="hotwords">
+                                <strong>热门搜索：</strong>
+                                <a href="" target="_blank">史记</a>
+                                <a href="" target="_blank">资治通鉴</a>
+                                <a href="" target="_blank">清史稿</a>
+                                <a href="" target="_blank">二十四史</a>
+                                <a href="" target="_blank">佛教</a>
+                                <a href="" target="_blank">大藏经</a>
+                                <a href="" target="_blank">更多</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="head_right">
+                    <div id="block-obcustom-shopping-cart" class="block block-obcustom"> 
+                        <div id="shopping-cart-block">
+                            <a id="cart-url" href="shoppongcart.html">去购物车结算</a>
+                            <b></b> 
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="head_nav">
+        <div class="head_nav_innner">
+            <div class="region region-head-nav">
+                <div id="all-categorys" class="all-categorys-class">
+                    <div class="mt ld">
+                        <h2><a href="#">全部商品分类<b></b></a></h2>
+                    </div>
+                    <div class="mc" id="bookstore-all-terms" load="2"></div>
+                </div>   
+                <ul class="menu"><li class="first leaf active-trail"><a href="index.html" title="" class="active">首页</a></li>
+                    <li class="leaf"><a href="" title="">古籍资讯</a></li>
+                    <li class="leaf"><a href="" title="">大型文献</a></li>
+                    <li class="leaf"><a href="" title="">线装图书</a></li>
+                    <li class="leaf"><a href="" title="">礼品图书</a></li>
+                    <li class="leaf"><a href="" title="">方志年鉴</a></li>
+                    <li class="last leaf"><a href="" title="">数据下载</a></li>
+                </ul>  
+            </div>
+        </div>  
+    </div>
+    <div class="breadcrumb" id="breadcrumb"> 
+        <h2 class="element-invisible">你在这里</h2>
+        <div class="breadcrumb">
+            <a href="/">首页</a>
+             » 
+            <a href="/books">图书</a>
+             » 
+            <a href="/books/category/21">古籍整理</a>
+             » 
+            <a href="/books/category/27">历史</a>
+             » 
+            <a href="/books/category/1593">线装大字珍藏本系列</a>
+             » 
+        </div>
+    </div>
+    <div id="content">                          
+        <div class="region region-content">
+            <div id="block-system-main" class="block block-system">
+                <div class="content">
+                    <div class="panel-front clearfix panel-display">
+                        <div class="center-wrapper">
+                            <div class="panel-col-first panel-panel">
+                                <div class="inside">
+                                    <div id="all-terms1" class="all-terms1-class">
+                                        <div class="mt ld">
+                                            <h2></h2>
+                                        </div>
+                                        <div class="mc" id="bookstore-all-terms1">     
+                                            <div class="item fore1">                                    
+                                                <h3>
+                                                    <b>&gt;</b>
+                                                    <a href="">古籍整理</a>
+                                                </h3>
+                                                <div class="con">
+                                                    <a href="">历史</a>   
+                                                    <a href="">文学</a>   
+                                                    <a href="">哲学</a>   
+                                                    <a href="">语言文字</a>   
+                                                    <a href="">综合</a>   
+                                                    <a href="">类书</a>   
+                                                    <a href="">大型文献</a>  
+                                                </div>
+                                                <div class="item-mc">
+                                                    <ul>
+                                                        <li></li>
+                                                    </ul>
+                                                </div>	      
+                                            </div>
+                                            <div class="item fore2">                                    
+                                                <h3>
+                                                    <b>&gt;</b>
+                                                    <a href="">古籍整理</a>
+                                                </h3>
+                                                <div class="con">
+                                                    <a href="">历史</a>   
+                                                    <a href="">文学</a>   
+                                                    <a href="">哲学</a>   
+                                                    <a href="">语言文字</a>   
+                                                    <a href="">综合</a>   
+                                                    <a href="">类书</a>   
+                                                    <a href="">大型文献</a>  
+                                                </div>
+                                                <div class="item-mc">
+                                                    <ul>
+                                                        <li></li>
+                                                    </ul>
+                                                </div>	      
+                                            </div>
+                                            <div class="item fore3">                                    
+                                                <h3>
+                                                    <b>&gt;</b>
+                                                    <a href="">古籍整理</a>
+                                                </h3>
+                                                <div class="con">
+                                                    <a href="">历史</a>   
+                                                    <a href="">文学</a>   
+                                                    <a href="">哲学</a>   
+                                                    <a href="">语言文字</a>   
+                                                    <a href="">综合</a>   
+                                                    <a href="">类书</a>   
+                                                    <a href="">大型文献</a>  
+                                                </div>
+                                                <div class="item-mc">
+                                                    <ul>
+                                                        <li></li>
+                                                    </ul>
+                                                </div>	      
+                                            </div>
+                                            <div class="item fore4">                                    
+                                                <h3>
+                                                    <b>&gt;</b>
+                                                    <a href="">古籍整理</a>
+                                                </h3>
+                                                <div class="con">
+                                                    <a href="">历史</a>   
+                                                    <a href="">文学</a>   
+                                                    <a href="">哲学</a>   
+                                                    <a href="">语言文字</a>   
+                                                    <a href="">综合</a>   
+                                                    <a href="">类书</a>   
+                                                    <a href="">大型文献</a>  
+                                                </div>
+                                                <div class="item-mc">
+                                                    <ul>
+                                                        <li></li>
+                                                    </ul>
+                                                </div>	      
+                                            </div>
+                                            <div class="item fore5">                                    
+                                                <h3>
+                                                    <b>&gt;</b>
+                                                    <a href="">古籍整理</a>
+                                                </h3>
+                                                <div class="con">
+                                                    <a href="">历史</a>   
+                                                    <a href="">文学</a>   
+                                                    <a href="">哲学</a>   
+                                                    <a href="">语言文字</a>   
+                                                    <a href="">综合</a>   
+                                                    <a href="">类书</a>   
+                                                    <a href="">大型文献</a>  
+                                                </div>
+                                                <div class="item-mc">
+                                                    <ul>
+                                                        <li></li>
+                                                    </ul>
+                                                </div>	      
+                                            </div>
+                                            <div class="item fore6">                                    
+                                                <h3>
+                                                    <b>&gt;</b>
+                                                    <a href="">古籍整理</a>
+                                                </h3>
+                                                <div class="con">
+                                                    <a href="">历史</a>   
+                                                    <a href="">文学</a>   
+                                                    <a href="">哲学</a>   
+                                                    <a href="">语言文字</a>   
+                                                    <a href="">综合</a>   
+                                                    <a href="">类书</a>   
+                                                    <a href="">大型文献</a>  
+                                                </div>
+                                                <div class="item-mc">
+                                                    <ul>
+                                                        <li></li>
+                                                    </ul>
+                                                </div>	      
+                                            </div>                               
+                                        </div>	
+                                    </div>                                   
+                                </div>
+                            </div>
+                            <div class="panel-col-last panel-panel">
+                                <div class="inside">
+                                    <div class="panel-pane pane-node">
+                                        <div class="panetitle">
+                                            <h2 class="pane-title">说文解字通论（精）</h2> 
+                                        </div>
+                                        <div class="pane-content">     
+                                            <div class="book_detail">
+                                                <div class="tingyun-tongzhi">
+                                                祝各位读者朋友们2019年万事如意！ 
+                                                </div>
+                                                <div class="book-basic-wrapper">
+                                                    <div class="book_pic">
+                                                        <div class="pic">
+                                                        <a href="#" class="jqzoom" rel="gal1" style="position: relative; display: block;">
+                                                            <img src="../images/xiangqing.png" width="200" height="200" alt="" style="display: inline;"> 
+                                                        </a>
+                                                        </div>                                                       
+                                                        <div class="buyit">
+                                                            <a href="">
+                                                            <img alt="购买" src="../images/buyit.png">
+                                                            </a>
+                                                        </div>                                                        
+                                                        <div class="prd_share">
+
+                                                           </div>
+                                                        </div>
+                                                    <div class="book_basic">
+                                                    <div name="Title_pub" class="head">
+                                                    <h1>  说文解字通论（精）    </h1>
+                                                    </div> 
+                                                    
+                                                    <div class="sale">
+                                                    <div class="price_d">
+                                                    会员价： <span class="num"><span class="uc-price">¥30.40</span></span>
+                                                    <span>定价：<span class="uc-price">¥38.00</span></span>
+                                                    <span>折扣：<span class="red">80折</span></span>
+                                                    <span> </span>
+                                                    </div>
+                                                    <div class="price_m">
+                                                
+                                                    </div>
+                                                    <div class="fraction">
+                                                    <span>顾客评分：</span>
+                                                    <div class="empty"> <div class="fivestar-default"><div class="fivestar-widget-static fivestar-widget-static-vote fivestar-widget-static-5 clearfix"><div class="star star-1 star-odd star-first"><span class="off">0</span></div><div class="star star-2 star-even"><span class="off"></span></div><div class="star star-3 star-odd"><span class="off"></span></div><div class="star star-4 star-even"><span class="off"></span></div><div class="star star-5 star-odd star-last"><span class="off"></span></div></div></div></div>
+                                                <a id="comm_num_up" href="#review_point">
+                                                    已有0人评论
+                                                </a>
+                                                
+                                                    </div>
+                                                    <div id="stock_html">
+                                                    库　　存：<strong class="store">有货(还有8本)</strong>
+                                                    </div>
+                                                    </div>
+                                                    <div class="book_detailed" name="__Property_pub">
+                                                        <div class="clearfix m_t6"><div class="show_info_left">作　　者：</div> <div class="show_info_right">陆宗达著</div></div>
+                                                        <div class="clearfix m_t6"><div class="show_info_left">出 版 社：</div> <div class="show_info_right"><a href="">中华书局</a></div></div>
+                                                        <div class="clearfix m_t6"><div class="show_info_left">出版时间：</div> <div class="show_info_right"><span class="date-display-single">2015-06-01</span></div></div>
+                                                        <div class="clearfix m_t6"><div class="show_info_left">ＩＳＢＮ:</div> <div class="show_info_right">9787101109276</div></div>
+                                                    </div>
+                                                    <div class="count">送积分：<a href="#" class="point" target="_blank" id="pointsTag">30</a>收藏人气：<span>3</span>
+                                                        浏览次数：<span>1736</span>
+                                                    </div> 
+                                                    
+                                                    </div>
+                                                </div>   
+                                            </div>
+                                        </div>                                                                                                                                             
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                               
+            </div>            
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div id="footer">
+        <div class="region region-footer">
+            <div id="block-menu-menu-help" class="block block-menu">
+                    <ul class="menu">
+                        <li class="first expanded">
+                            <a href="" title="">新手上路</a>
+                            <ul class="menu">
+                                <li class="first leaf"><a href="" title="">新用户注册</a></li>
+                                <li class="leaf"><a href="" title="">订单流程</a></li>
+                                <li class="last leaf"><a href="" title="">会员积分计划</a></li>
+                            </ul>
+                        </li>
+                        <li class="expanded">
+                            <a href="" title="">付款方式</a>
+                            <ul class="menu">
+                                <li class="first leaf"><a href="" title="">支付宝</a></li>
+                                <li class="leaf"><a href="" title="">邮局汇款</a></li>
+                                <li class="last leaf"><a href="" title="">银行汇款</a></li>
+                            </ul>
+                        </li>
+                        <li class="expanded">
+                            <a href="" title="">售前售后服务</a>
+                            <ul class="menu">
+                                <li class="first leaf"><a href="" title="">退换书政策</a></li>
+                                <li class="leaf"><a href="" title="">退换书申请</a></li>
+                                <li class="last leaf"><a href="" title="">退换书通道</a></li>
+                            </ul>
+                        </li>
+                        <li class="expanded">
+                            <a href="" title="">配送服务</a>
+                            <ul class="menu">
+                                <li class="first leaf"><a href="" title="">配送时间，范围</a></li>
+                                <li class="leaf"><a href="" title="">配送费收取标准</a></li>
+                                <li class="last leaf"><a href="" title="">发票制度</a></li>
+                            </ul>
+                        </li>
+                        <li class="last expanded">
+                            <a href="" title="">帮助中心</a>
+                            <ul class="menu">
+                                <li class="first leaf"><a href="" title="">常见热点问题</a></li>
+                                <li class="last leaf"><a href="" title="">忘记了密码</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+            </div>
+            <div id="block-block-10" class="block block-block"> 
+                    <img width="990" height="60" src="../images/footer.jpg">
+            </div>
+            <div id="block-menu-menu-footernav" class="block block-menu">  
+                <ul class="menu"><li class="first leaf"><a href="" title="">关于我们</a></li>
+                    <li class="leaf"><a href="" title="">联系我们</a></li>
+                    <li class="leaf"><a href="" title="">安全交易</a></li>
+                    <li class="last leaf"><a href="" title="">网站地图</a></li>
+                </ul>
+            </div>
+            <div id="block-block-1" class="block block-block"> 
+                <p>版权所有 2007-2015 中华书局读者服务部 保留所有权利</p>
+                <p>中华人民共和国出版物经营许可证新出发京零字第东070179号</p>
+                <p><span>京公网安备11010102000928号</span>京ICP备10218153</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/fangdajing.js"></script>
+</body>
+</html>

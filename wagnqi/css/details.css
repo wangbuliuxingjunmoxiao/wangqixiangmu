@@ -1,0 +1,203 @@
+#breadcrumb {
+    line-height: 28px;
+    margin: 10px auto 0;
+    padding-left: 5px;
+    width: 1000px;
+}
+.breadcrumb {
+    padding-bottom: 0.5em;
+}
+.element-invisible {
+    position: absolute !important;
+    clip: rect(1px,1px,1px,1px);
+    overflow: hidden;
+    height: 1px;
+}
+#breadcrumb a, #breadcrumb a:hover {
+    font-weight: normal;
+}
+a {
+    color: #666666;
+    text-decoration: none;
+}
+.panel-front .center-wrapper {
+    clear: both;
+}
+#content .panel-front .panel-col-first {
+    float: left;
+    width: 210px;
+}
+#content .panel-front .panel-col-last {
+    float: left;
+    width: 790px;
+}
+.panel-front .panel-col-last .inside {
+    margin: 0 0 1em .5em;
+}
+.panel-pane {
+    border: 1px solid #8c0811;;
+    margin-bottom: 10px;
+    padding: 1px;
+    position: relative;
+    clear: both;
+}
+.panel-pane .panetitle h2 {
+    background-color: #8c0811;
+    border: 0 solid #ffffff;
+    color: #fff;
+}
+.panel-pane .panetitle h2 {
+    background-position: 8px 3px;
+    background-repeat: no-repeat;
+    font-size: 14px;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    padding-left: 33px;
+}
+.clearfix {
+    display: block;
+}
+.panel-front {
+    margin-top: 0;
+    padding-top: 0;
+}
+.panel-front .center-wrapper {
+    clear: both;
+}
+#content .panel-front .panel-col-last {
+    float: left;
+    width: 790px;
+}
+.panel-front .panel-col-last .inside {
+    margin: 0 0 1em .5em;
+}
+.panel-pane {
+    border: 1px solid #8c0811;
+}
+.panel-pane {
+    margin-bottom: 10px;
+    padding: 1px;
+    position: relative;
+    clear: both;
+}
+.panel-pane .pane-content {
+    margin: 15px 3px 3px 5px;
+    overflow: hidden;
+}
+.book_detail {
+    overflow: hidden;
+    padding: 20px 0;
+}
+.book_detail .tingyun-tongzhi {
+    color: #cc0000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0px 10px 10px 10px;
+}
+.book_detail .book_pic {
+    width: 220px;
+    padding-left: 0px;
+}
+.book_detail .book_pic {
+    float: left;
+    height: 350px;
+    margin-top: 20px;
+    position: relative;
+}
+.book_detail .book_pic .pic {
+    height: 200px;
+    margin-left: 22px;
+    width: 200px;
+    overflow: hidden;
+    text-align: center;
+}
+a {
+    color: #666666;
+    text-decoration: none;
+}
+img {
+    border: 0 none;
+}
+.book_detail .buyit {
+    margin-top: 20px;
+    margin-left: 22px;
+    width: 200px;
+    overflow: hidden;
+    text-align: center;
+}
+.book_detail .buyit a {
+    margin-left: 22px;
+}
+img {
+    border: 0 none;
+}
+.book_detail .book_basic {
+    float: right;
+    padding-bottom: 20px;
+    width: 476px;
+}
+h1 {
+    font: 20px Arial,Verdana,"����";
+    padding-bottom: 10px;
+}
+.book_detail .book_basic .sale {
+    line-height: 24px;
+}
+.book_detail .book_basic .sale {
+    line-height: 24px;
+}
+.book_detail .book_basic .uc-price {
+    color: #CC0000;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: -2px;
+    vertical-align: top;
+}
+.uc-price {
+    white-space: nowrap;
+}
+.book_detail .book_basic .sale {
+    line-height: 24px;
+}
+.book_detail .book_basic .red {
+    color: #CC3300;
+    margin-left: 0;
+}
+.book_detail .fraction span {
+    float: left;
+}
+strong, b {
+    font-weight: bold;
+}
+.clearfix {
+    display: block;
+}
+.book_detail .book_detailed .show_info_left {
+    width: 60px;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
